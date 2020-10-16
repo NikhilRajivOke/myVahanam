@@ -1,0 +1,41 @@
+.book-form{
+    padding:5% 8%;
+    text-align: left;
+    box-shadow: 0 2px 40px rgba(148,26,214,0.3);
+    label{
+        font-size:18px;
+        color:#941ad6;
+        width:100%;
+        margin:2% 0%;
+    }
+    input{
+        width:100%;
+        margin:2% 0%;
+        outline:none;
+        border-color: #c38ce0;
+    }
+    .type_service{
+        input{
+            border-color: #941ad6;
+            width:10%;
+            display: inline;
+            margin:2% 0%;
+        }
+        span{
+            color:#941ad6;
+        }
+    }
+
+    .book-btn{
+        margin-top:5%;
+        background-color: #951ad6;
+        border-radius: 5px;
+        font-size: 18px;
+        text-align: center;
+        &:hover{
+            color: #951ad6;
+            background-color: transparent;
+            border:1px solid #951ad6;
+    }
+}
+}

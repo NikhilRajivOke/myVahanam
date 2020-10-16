@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=Regular');
+.footer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.9);
+    color:white;
+    padding:5%;
+    .item{
+        width:25%;
+        @media (max-width:576px) {
+            width:100%;
+            margin-top: 10%;
+        }
+    }
+    .logo-section{
+        img{
+            width:200px;
+        }
+        p{
+            margin-top:5%;
+            font-family: 'Open Sans';
+            font-size:16px;
+        }
+    }
+    .navigation-section{
+        text-align: left;
+        li{
+            list-style-type:none;
+            margin:0% 0% 5% 10%;
+            &:hover{
+                color:#941ad6;
+            }
+        }
+    }
+
+    .services-section{
+        text-align: left;
+        .service{
+            text-align: center;
+            font-weight: bold;
+            letter-spacing: 0.30em;
+        }
+        .driving,.vehicle{
+            &:hover{
+                color:#941ad6;
+            }
+        }
+        .sec{
+            display: inline-block;
+            padding:2%;
+        }
+
+        hr{
+            margin-left:0;
+            width:80%;
+            border: 2px solid white;
+            @media (max-width:576px) {
+                width:100%;
+            }
+        }
+    }
+
+    .contact{
+        .contact-board{
+            text-align: center;
+            border:4px solid #941ad6;
+
+            .call{
+                padding:2%;
+                font-weight: bold;
+                font-size: 24px;
+            }
+            .num{
+                font-weight: bolder;
+                font-size:24px;
+                color:#941ad6
+            }
+           
+        }
+        .contact-section{
+            margin-top: 5%;
+            .type{
+                text-align:left;
+                .sec{
+                    display: inline-block;
+                    padding:2%;
+                }
+            }
+        }
+    }
+
+    
+}
+.copyright{
+    text-align: center;
+    background-color: rgba(0,0,0,0.95);
+    color:white;
+    p{
+        padding:1%;
+        margin-bottom: 0%;
+    }
+}

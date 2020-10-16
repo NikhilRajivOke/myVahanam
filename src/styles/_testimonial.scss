@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=Regular');
+
+.testimonials{
+    .Heading{
+        font-size: 30px;
+        font-family: 'Open Sans';
+        text-align: center;
+    }
+}
+.testimonial-flex{
+    display:flex;
+    flex-wrap: wrap;
+    margin:2% 10%;
+    justify-content: space-between;
+    .img-section{
+        width:30%;
+        @media (max-width:576px) {
+            width:100%;
+        }
+        .UserPic{
+        margin-left:50%;
+        margin-right:50%;
+        transform: translate(-50%,0%);
+        }
+        .name{
+            font-family:"Open Sans";
+            font-weight: bold;
+            margin-top:5%;
+            text-align: center;
+        }
+        .description{
+            font-family:"Open Sans";
+            //margin-top:2%;
+            line-height:0.8;
+            text-align: center;
+        }
+        
+    }
+    .test-text{
+        text-align: left;
+        margin-top:3%;
+        width:65%;
+        @media (max-width:576px) {
+            width:100%;
+        }
+    }
+}
+.arrow{
+    fill:black;
+}

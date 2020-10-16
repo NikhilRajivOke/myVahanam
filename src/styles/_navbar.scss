@@ -1,0 +1,27 @@
+.logo{
+    width:200px;
+    @media (max-width:576px) {
+        width:100px;
+    }
+}
+.nav-bg{
+    background-color: rgb(248,249,250);
+    
+}
+.nav-options{
+    color:#951ad6 !important;
+    &:hover{
+        color: #3b0c55 !important;
+    }
+}
+.book-btn{
+    background-color: #951ad6;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    &:hover{
+        color: #951ad6;
+        background-color: transparent;
+        border:1px solid #951ad6;
+    }
+}
